@@ -1,0 +1,26 @@
+<Task pev_start_window="300" pev_start_wait_time="480" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="200" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="10800" type="AAT">
+	<Point type="Start">
+		<Waypoint altitude="190" comment="Turn Point, Start" id="6" name="006-PtedeMadera">
+			<Location latitude="-37.9822" longitude="-60.159"/>
+		</Waypoint>
+		<ObservationZone length="10000" type="Line"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="197" comment="Turn Point" id="107" name="108LaVirginia">
+			<Location latitude="-38.0881" longitude="-61.0439"/>
+		</Waypoint>
+		<ObservationZone radius="20000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="216" comment="Turn Point" id="137" name="138SantaElena">
+			<Location latitude="-37.3456" longitude="-60.6033"/>
+		</Waypoint>
+		<ObservationZone radius="20000" type="Cylinder"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="194" comment="Home Field, Finish" id="1" name="001-OttoBallod">
+			<Location latitude="-38.0295" longitude="-60.1356"/>
+		</Waypoint>
+		<ObservationZone radius="3000" type="Cylinder"/>
+	</Point>
+</Task>
