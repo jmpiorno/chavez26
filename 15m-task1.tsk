@@ -1,0 +1,34 @@
+<Task type="RT" fai_finish="0">
+	<Point type="Start">
+		<Waypoint altitude="179" name="005-LagdelCorazon">
+			<Location latitude="-38.064466666667" longitude="-60.186483333334"/>
+		</Waypoint>
+		<ObservationZone type="Line" length="10000.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="110" name="104Ochandio">
+			<Location latitude="-38.3575" longitude="-59.78695"/>
+		</Waypoint>
+		<ObservationZone type="Cylinder" radius="500.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="121" name="075Guisasola">
+			<Location latitude="-38.67195" longitude="-61.083333333334"/>
+		</Waypoint>
+		<ObservationZone type="Cylinder" radius="500.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="328" name="059ElPensamiento">
+			<Location latitude="-38.217283333334" longitude="-61.312483333333"/>
+		</Waypoint>
+		<ObservationZone type="Cylinder" radius="500.0"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="194" name="001-OttoBallod">
+			<Location latitude="-38.02945" longitude="-60.135550000001"/>
+		</Waypoint>
+		<ObservationZone type="Cylinder" radius="3000.0"/>
+	</Point>
+</Task>
+
+
